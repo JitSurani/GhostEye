@@ -17,7 +17,7 @@ GhostEye is a powerful, modular, and interactive command-line tool designed to a
 --------|| 🧑‍💻 Author: ||--------
 Developed by Jit Surani (alias: Js) – Cybersecurity Enthusiast
 
-## 🧠 Ideal For:
+### 🧠 Ideal For:
 Bug bounty hunters, 
 OSINT researchers, 
 Penetration testers, 
