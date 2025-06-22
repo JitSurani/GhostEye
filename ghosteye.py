@@ -163,7 +163,7 @@ def main():
         elif choice == '8':
             print("\n[+] Exiting GhostEye. Stay anonymous 👻\n")
             print("Made By : Js")
-            time.sleep(5)
+            time.sleep(3)
             break
         else:
             print("Invalid choice. Try again.")
