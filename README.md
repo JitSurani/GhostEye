@@ -126,7 +126,12 @@ The developer is not responsible for any misuse or illegal activity conducted wi
 🔐 Use it ethically. Hack responsibly.
 Built with 💻 by js — Jit Surani
 ###
+---
+## 📜 License
 
+GhostEye is licensed under the [MIT License](LICENSE).
+This tool is intended strictly for educational, ethical hacking, and authorized security testing only.  
+The developer does not take responsibility for any misuse of this software.
 
 
 
