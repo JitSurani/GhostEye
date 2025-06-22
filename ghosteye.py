@@ -63,7 +63,7 @@ def netcraft_dnsdumpster():
     except:
         print("[-] Failed to fetch DNSDumpster data. Install dnsdumpster module if needed.")
 
-def sherlock_search():
+def maigret_search():
     print("\n[+] Deep Search")
     print("The Link will be provieded and will be used only if you have already logged in that particular site.")
     print("WARNING: Field is CASE SENSITIVE, Search Accordingly")
@@ -151,7 +151,7 @@ def main():
         elif choice == '2':
             netcraft_dnsdumpster()
         elif choice == '3':
-            sherlock_search()
+            maigret_search()
         elif choice == '4':
             dns_footprinting()
         elif choice == '5':
