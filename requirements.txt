@@ -1,3 +1,14 @@
 requests
 beautifulsoup4
 python-whois
+ipwhois
+dnspython
+socks
+stem
+aiohttp
+certifi
+charset-normalizer
+idna
+urllib3
+python-socks
+python-dotenv
