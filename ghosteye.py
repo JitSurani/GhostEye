@@ -30,9 +30,9 @@ def print_banner():
 
 def menu():
     print("Select an option:")
-    print("1. Dorking")
+    print("1. Dorking -- (Social-Media)")
     print("2. Site Details && DNS Dumping")
-    print("3. Social-Media Recon")
+    print("3. Search via Name/Number")
     print("4. DNS Footprinting")
     print("5. Network Footprinting")
     print("6. Email Footprinting")
@@ -64,12 +64,12 @@ def netcraft_dnsdumpster():
         print("[-] Failed to fetch DNSDumpster data. Install dnsdumpster module if needed.")
 
 def sherlock_search():
-    print("\n[+] Maigret - Deep Social Media Profile Recon")
-    print("\nThe Link will be provieded and will be used only if you have already logged in that particular site.")
-    print("\nWARNING: Field is CASE SENSITIVE, Search Accordingly")
+    print("\n[+] Deep Search")
+    print("The Link will be provieded and will be used only if you have already logged in that particular site.")
+    print("WARNING: Field is CASE SENSITIVE, Search Accordingly")
     username = input("Enter username to search: ")
     print("\nWARNING: More number of queries will lead to irrelevant result.")
-    site_numb = input("\nEnter the number of query to search:  ")
+    site_numb = input("Enter the number of query to search:  ")
     subprocess.run(["maigret", username, "--top-sites", site_numb, "--timeout", "15", "--retries", "2"])
 
 def dns_footprinting():
@@ -80,7 +80,7 @@ def dns_footprinting():
     subprocess.run(["dig", domain, "MX", "+short"])
 
 def traceroute_trace():
-    host = input("\nEnter domain/IP for traceroute: ")
+    host = input("\nEnter domain/IP: ")
     num_hop = input("\nEnter the Maximum number of hops: ")
     subprocess.run(["traceroute", "-m", num_hop, host])
 
@@ -162,6 +162,8 @@ def main():
             email_footprinting()
         elif choice == '8':
             print("\n[+] Exiting GhostEye. Stay anonymous 👻\n")
+            print("Made By : Js")
+            time.sleep(5)
             break
         else:
             print("Invalid choice. Try again.")
