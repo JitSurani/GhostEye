@@ -1,0 +1,27 @@
+# 🧠 Python general
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 🐍 Virtual environments
+venv/
+.env/
+
+# 📦 Package-related
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# 🔐 Secrets (optional, if you use dotenv)
+.env
+
+# ⚙️ IDEs
+.vscode/
+.idea/
+
+# 🔍 Maigret or PhoneInfoga logs (optional)
+output/
